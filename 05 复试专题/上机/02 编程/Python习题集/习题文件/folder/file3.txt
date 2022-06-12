@@ -1,0 +1,5 @@
+The parser alternates between two types of actions, structural and label, where the structural actions follow a path to make the stack spans correspond to sentence phrases in a bottom-up manner,
+while the label actions optionally create tree brackets for the top span on the stack. There are only two
+structural actions: shift is the same as other transition systems, while combine merges the top two sentence spans. The latter is analogous to a reduce action, but it does not immediately create a tree structure and is non-directional. Label actions do create
+a partial tree on top of the stack by assigning one or
+more non-terminals to the topmost span.

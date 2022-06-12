@@ -1,0 +1,6 @@
+Parsing is an important problem in natural language
+processing which has been studied extensively for
+decades. Between the two basic paradigms of parsing, constituency parsing, the subject of this paper,
+has in general proved to be the more difficult than
+dependency parsing, both in terms of accuracy and
+the run time of parsing algorithms.

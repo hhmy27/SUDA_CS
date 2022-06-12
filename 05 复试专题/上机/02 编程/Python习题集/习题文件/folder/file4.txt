@@ -1,0 +1,10 @@
+For the particular case of our transition constituency parser, we use only four span features to
+determine a structural action, and three to determine
+a label action, in each case partitioning the sentence
+exactly. The reason for this is straightforward: when
+considering a structural action, the top two spans on
+the stack must be considered to determine whether
+they should be combined, while for a label action,
+only the top span on the stack is important, since that
+is the candidate for labeling. In both cases the remaining sentence prefix and suffix are also included.
+These features are shown in Table 1.
